@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Limelight&family=Oleo+Script+Swash+Caps&family=Paytone+One&family=Racing+Sans+One&family=Raleway&family=Sarpanch&family=Syncopate&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- css -->
+    <link href="./css/main.css" rel="stylesheet">
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="./app.js" defer></script>
+    <title>Alex Williams Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h3><a class="nav-button">Alex Williams</a></h3>
+            <ul>
+                <li><a class="nav-button">About</a></li>
+                <li><a class="nav-button">Past Work</a></li>
+                <li><a class="nav-button">Contact Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="splash" id='splash'>
+            <div class='title-box'>
+                <div class="title-pic">
+                    <div class="placeHolder"></div>
+                    <img src="css/images/me.jpeg">
+                </div>
+                <div class="title-words">
+                    <h3>Now Featuring</h3>
+                    <h1>Alex</h1>
+                    <h2>Williams</h2>
+                    <h3>Full-Stack Developer</h3>
+                </div>
+            </div>
+        </section>
+        <div class="offset" id="offset1"></div>
+        <section class="about" id='about'>
+            <div class="about1-holder">
+                <h2>About Me</h2>
+                <p>Coder, artist, photographer, and much more! After going to school for 3d animation I discovered the job market was a little too dry. So after some soul searching, I took a leap of faith and have found myself waist-deep in full-stack development. The next chapter of my life has begun, and I'm excited to see more of what the life of a software engineer has in store for me.</p>
+                <a id="about-more">More...</a>
+            </div>
+        </section>
+        <div class="offset" id="offset2"></div>
+        <h2 class="example-title">Previous Work Examples</h2>
+        <section class="examples">
+            <div class="work-box">
+                <h3>Tamagotchi</h3>
+                <div class="img-holder held-img1">
+                </div>
+                <p>My first project with General Assembly. Using Javascript, this little game allows the user to create a tiny animated friend that they get to play with.</p>
+                <a href="https://pages.git.generalassemb.ly/al-exe/Tamagotchi/" target="_blank">See Project...</a>
+            </div>
+            <div class="work-box">
+                <h3>FAD-Games</h3>
+                <div class="img-holder held-img2"></div>
+                <p>A team project completed with two of my cohortmates. FAD-Games is a site made in NodeJS, and allows users to sign up, login, add games to a database, and review said games.</p>
+                <a href="https://git.generalassemb.ly/al-exe/Project-ONE" target="_blank">See Project...</a>
+            </div>
+            <div class="work-box">
+                <h3>Cryptid Collector</h3>
+                <div class="img-holder held-img3"></div>
+                <p>A full CRUD website created in Django. This site allows users to add creatures to a sign up, login, add creatures to a database, add sightings, assign tags, and create new tags.</p>
+                <a href="https://git.generalassemb.ly/al-exe/Finch-collector-lab-views" target="_blank">See Project...</a>
+            </div>
+        </section>
+        <div class="offset" id="offset3"></div>
+        <h2 class="example-title">More About Alex</h2>
+        <section class="about2">
+            <div class="about2-holder">
+                <p>&emsp;My whole life I thought coding was something only the smartest people, who had been working with it since high school, could do. General Assembly has taught me that anyone can code, and ever since I have been excitedly digging in. While I may not have been coding for long, I have an avid desire to push how far I can go. </p>
+                <div class="about2-img-holder held-img4"></div>
+            </div>
+            <div class="about2-holder about2-holder-right">
+                <div class="about2-img-holder held-img5"></div>
+                <p>&emsp;The other newest skill I've been sharpening is digital painting. While it may not  be fair to completely call myself a novice- I've been drawing and dabbling in art since I was small -I am still new to painting with this medium. Quarantine gave me an excellent opportunity to fast track my skills with it, and now its one of my favorite past-times.</p>
+            </div>
+            <div class="about2-holder">
+                <p>&emsp;Photography is something I hadn't really tried to do, so much as had it fall into my lap. I took a single class in it while attending college, and offered to help a friend with some photography they needed; next thing I knew, I was suddenly getting requests from all my friends, and then from others they had recommended me to. While it was unexpected for me, I really enjoy it.</p>
+                <div class="about2-img-holder held-img6"></div>
+            </div>
+        </section>
+        <div class="offset" id="offset4"></div>
+        <section class="contact">
+            <form action="mailto:alexander.jr.williams@gmail.com" method="post" enctype="text/plain">
+                <h2>Send me an Email!</h2>
+                <!-- <label>Name:</label> -->
+                <input type="text" placeholder="Name...">
+                <!-- <label>Email:</label> -->
+                <input type="email" placeholder="Email...">
+                <!-- <label>Message:</label> -->
+                <textarea placeholder="Leave me a message..."></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="https://www.facebook.com/alex.williamsington/" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/ingenuinuity/" class="fa fa-instagram"></a>
+        <a href="https://github.com/Alex-xlsx" class="fa fa-github"></a>
+        <a href="https://www.linkedin.com/in/awilliams1408/" class="fa fa-linkedin"></a>
+        <p>Copyright 2021 Alex Williams, All Rights Reserved</p>
+    </footer>
+</body>
+</html>
